@@ -10,9 +10,33 @@
 		6E3512392E2D7D5900F95422 /* CoffeeBrowser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoffeeBrowser.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		6E5911912E2D89D900A59A79 /* Exceptions for "CoffeeBrowser" folder in "CoffeeBrowser" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				"Services/CoffeeDrink+Mapping.swift",
+			);
+			target = 6E3512382E2D7D5900F95422 /* CoffeeBrowser */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
+		6E5911922E2D89D900A59A79 /* Exceptions for "CoffeeBrowser" folder in "Copy Bundle Resources" phase from "CoffeeBrowser" target */ = {
+			isa = PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet;
+			buildPhase = 6E3512372E2D7D5900F95422 /* Resources */;
+			membershipExceptions = (
+				"Services/CoffeeDrink+Mapping.swift",
+			);
+		};
+/* End PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		6E35123B2E2D7D5900F95422 /* CoffeeBrowser */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				6E5911912E2D89D900A59A79 /* Exceptions for "CoffeeBrowser" folder in "CoffeeBrowser" target */,
+				6E5911922E2D89D900A59A79 /* Exceptions for "CoffeeBrowser" folder in "Copy Bundle Resources" phase from "CoffeeBrowser" target */,
+			);
 			path = CoffeeBrowser;
 			sourceTree = "<group>";
 		};
