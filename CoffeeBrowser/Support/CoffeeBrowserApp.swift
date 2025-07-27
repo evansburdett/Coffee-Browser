@@ -1,16 +1,18 @@
-//
-//  CoffeeBrowserApp.swift
-//  CoffeeBrowser
-//
-//  Created by Evan Burdett on 7/20/25.
-//
 import SwiftUI
+import FirebaseCore
 
 @main
 struct CoffeeBrowserApp: App {
-    var body: some Scene {
-        WindowGroup {
-            CoffeeListView()
-        }
+  init() {
+    FirebaseApp.configure()
+  }
+
+  @StateObject private var authVM = AuthViewModel()
+
+  var body: some Scene {
+    WindowGroup {
+      ContentView()
+        .environmentObject(authVM)
     }
+  }
 }
